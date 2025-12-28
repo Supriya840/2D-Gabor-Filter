@@ -21,15 +21,20 @@ The top-level design consists of three main modules:
 
 1️. Control Logic Unit (CLU)
 
-Controls the convolution sequence,
-Generates memory and kernel addresses,
-Uses multiple counters for pixel and kernel traversal,
+Controls the convolution sequence
+
+Generates memory and kernel addresses
+
+Uses multiple counters for pixel and kernel traversal
+
 Switches between write mode (image input) and convolution mode
 
 2️. Memory Unit (MEMORY)
 
-Stores the input fingerprint image (16×16 pixels),
-Each pixel is stored as a 32-bit floating-point value,
+Stores the input fingerprint image (16×16 pixels)
+
+Each pixel is stored as a 32-bit floating-point value
+
 Supports read/write operations controlled by CLU,
 
 3️. Arithmetic Logic Unit (ALU)
@@ -67,11 +72,11 @@ Orientation (θ)	: 45°
 
 3×3 Gabor Kernel
 
-[ 0.006737943   1.29E-05     -4.0E-08  ]
+[ 0.006737943    1.29E-05      -4.0E-08  ]
 
-[ 2.35672E-07  4.14E-08     1.45E-12  ]
+[ 2.35672E-07   4.14E-08      1.45E-12  ]
 
-[ -1.36E-11    2.65E-14     8.53E-17  ]
+[ -1.36E-11     2.65E-14      8.53E-17  ]
 
 Convolution Methodology
 
