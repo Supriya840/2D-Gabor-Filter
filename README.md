@@ -4,16 +4,16 @@ This project implements a Gabor filter for fingerprint image enhancement using V
 
 Design:
 
-Uses a memory-based convolution architecture
-Implements a 3×3 Gabor kernel
-Performs floating-point convolution using IEEE-754 single precision
-Is fully described in Verilog HDL
+Uses a memory-based convolution architecture,
+implements a 3×3 Gabor kernel,
+performs floating-point convolution using IEEE-754 single precision,
+is fully described in Verilog HDL
 
 What should be the outcome:
 
-Implement a digital Gabor filter for fingerprint texture segmentation
-Design a real-time convolution architecture using FPGA
-Enhance fingerprint ridge and valley structures
+Implement a digital Gabor filter for fingerprint texture segmentation,
+design a real-time convolution architecture using FPGA,
+enhance fingerprint ridge and valley structures
 
 System Architecture:
 
@@ -21,16 +21,16 @@ The top-level design consists of three main modules:
 
 1️. Control Logic Unit (CLU)
 
-Controls the convolution sequence
-Generates memory and kernel addresses
-Uses multiple counters for pixel and kernel traversal
+Controls the convolution sequence,
+Generates memory and kernel addresses,
+Uses multiple counters for pixel and kernel traversal,
 Switches between write mode (image input) and convolution mode
 
 2️. Memory Unit (MEMORY)
 
-Stores the input fingerprint image (16×16 pixels)
-Each pixel is stored as a 32-bit floating-point value
-Supports read/write operations controlled by CLU
+Stores the input fingerprint image (16×16 pixels),
+Each pixel is stored as a 32-bit floating-point value,
+Supports read/write operations controlled by CLU,
 
 3️. Arithmetic Logic Unit (ALU)
 
@@ -67,8 +67,8 @@ Orientation (θ)	: 45°
 
 Convolution Methodology
 
-Input image is stored pixel-by-pixel in memory
-A sliding 3×3 window is applied
+Input image is stored pixel-by-pixel in memory,
+A sliding 3×3 window is applied,
 
 Each output pixel is computed as:
 
