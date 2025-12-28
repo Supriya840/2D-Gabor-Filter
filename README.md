@@ -78,7 +78,7 @@ Orientation (θ)	: 45°
 
 [ -1.36E-11     2.65E-14      8.53E-17  ]
 
-Convolution Methodology
+Convolution Methodology:
 
 Input image is stored pixel-by-pixel in memory,
 A sliding 3×3 window is applied,
