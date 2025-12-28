@@ -56,10 +56,15 @@ These properties make Gabor filters ideal for fingerprint texture extraction.
 
 Filter Parameters Used
 Parameter	Value
+
 Frequency (ƒ)	: 1/3
+
 Orientation (θ)	: 45°
+
 σx	: 0.5
+
 σy	: 0.5
+
 3×3 Gabor Kernel
 
 [ 0.006737943   1.29E-05     -4.0E-08  ]
