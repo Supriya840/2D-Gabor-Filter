@@ -39,9 +39,11 @@ Performs the convolution operation
 Contains:
 
 ROM for Gabor coefficients
+
 9 parallel multipliers
+
 Adder tree for accumulation
-Uses Xilinx Floating-Point IP Core
+
 Produces the filtered pixel output
 
 - Gabor Filter Details
