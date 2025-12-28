@@ -61,8 +61,11 @@ Orientation (θ)	: 45°
 σx	: 0.5
 σy	: 0.5
 3×3 Gabor Kernel
+
 [ 0.006737943   1.29E-05     -4.0E-08  ]
+
 [ 2.35672E-07  4.14E-08     1.45E-12  ]
+
 [ -1.36E-11    2.65E-14     8.53E-17  ]
 
 Convolution Methodology
